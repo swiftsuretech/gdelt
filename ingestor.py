@@ -9,4 +9,4 @@ def csv_reader(file_name):
         helpers.bulk(es, reader, index="test_gdelt")
 
 
-csv_reader("/Users/dswhitehouse/PycharmProjects/gdelt/test.CSV")
+csv_reader("test.CSV")
